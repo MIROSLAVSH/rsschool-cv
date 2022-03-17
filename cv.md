@@ -40,5 +40,5 @@ function isDivideBy(number, a, b)
 --------------
 
  **Language**
-  - English - [A1](https://www.efset.org/quick-check/take-test/#set15-190/result)
+  - English - [A1](https://www.efset.org/quick-check/take-test/#set15-190/result
 
