@@ -1,4 +1,4 @@
-[# rsschool-cv]//(https://miroslavsh.github.io/rsschool-c/cv3)
+[# rsschool-cv](https://miroslavsh.github.io/rsschool-c/cv3)
 -----------
 ### Miraslau Sharkouski
 
