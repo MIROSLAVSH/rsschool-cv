@@ -23,7 +23,7 @@ I decided to do JS / Frontend development, as it makes it possible to create som
 
 ```
 function isDivideBy(number, a, b) 
-            if (number % a === 0 && number % b === 0) 
+            if (number % a === 0 && number % b === 0 
             return true;
             } else 
             return false;
