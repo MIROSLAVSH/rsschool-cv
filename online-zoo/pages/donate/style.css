@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+.header{
+    width: 1160px;
+    height: 80px;
+}
+
+.section{
+    width: 100%;
+    background-color:#000000;
+    z-index: 1;
+}
+
+
+.header_content{
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo_header{
+    display: flex;
+    margin-top: 14px;
+}
+
+.logo{
+    display: flex;
+}
+
+.navigation{
+    display: flex;
+    margin-top: 14px
+}
+
+.ul_li{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+li{
+    color:#fff;
+    margin-left: 58px;
+    cursor: pointer;
+}
+
+.li_desine{
+    position: absolute;
+    right: 5px;
+    display: flex;
+    color:#fff;
+}
+
+a:hover{
+    color:#F9804B;
+}
+
+.active{
+    color:#F9804B;
+}
+
+.section_2{
+    width: 100%;
+    height: 390px;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.bg_color{
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+}
+
+.big_card_up{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.big_card{
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+}
+
+.big_title_card{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    text-align: center;
+
+    color: #FE9013;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.pre_title_in_big_card{
+    font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+
+color: #333B41;
+margin-left: 100px;
+margin-bottom: 40px;
+}
+
+.text_small{
+    font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+
+
+color: #333B41;
+margin-left: 100px;
+margin-bottom: 10px;
+}
+
+.text_in_big_card{
+    margin-left: 100px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+/* or 21px */
+
+
+color: #333B41;
+margin-bottom: 60px;
+}
+
+.link{
+    text-decoration: none;
+    color: #333B41;
+    border-bottom: 1px solid #FE9013;
+}
+
+.title_hiw{
+    text-align: center;
+    font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+/* identical to box height, or 47px */
+
+
+color: #333B41;
+margin-bottom: 40px;
+}
+
+.smalls_cards{
+    display: flex;
+    justify-content: center;
+}
+
+.small_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 168px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid#FE9013;
+    margin-right: 130px;
+    margin-bottom: 30px;
+}
+
+.small_card:nth-child(3){
+    margin-right: 0px;
+}
+
+.text_small_card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 130px;
+    width: 168px;
+}
+
+.texts_smalls_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.text_small_card:nth-child(3){
+    margin-right: 0px;
+}
+
+.mb{
+    margin-bottom: 59px;
+}
+
+.mt{
+    margin-top: 140px;
+}
+
+.tdt{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+.title_zoo{
+    font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+/* identical to box height, or 47px */
+
+
+color: #FFFFFF;
+margin-top: 40px;
+}
+
+.description_zoo{
+    font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #FFFFFF;
+}
+
+.title_donation{
+    font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+/* identical to box height, or 47px */
+
+
+/* or3 */
+
+color: #FE9013;
+margin-top: 40px;
+}
+
+.div_button_2{
+    display: flex;
+    justify-content: center;
+}
+
+.button_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 500;
+    color: #fff;
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.logo_footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 52px;
+}
+
+.form{
+    margin-bottom: 30px;
+}
+
+.text_footer{
+    font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+
+color: #FFFFFF;
+margin-bottom: 14px;
+}
+
+
+input{
+    border-radius: 2px;
+    border: 1px solid #F9804B;
+    background: #111115;
+    width: 228px;
+    height: 42px;
+
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+/* Gray 4 */
+
+color: #BDBDBD;
+outline: none;
+}
+
+.button_white{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+cursor: pointer;
+
+/* Green */
+
+color: #4B9200;
+
+width:129px;
+height:42px;
+}
+
+.mb_90{
+    margin-bottom: 200px;
+}
+
+.pt_40 {
+    padding-top: 40px;
+}
+
+.div_button_3{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.button_3 {
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: 240px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.links_icons{
+    background-color: #000000;
+}
+
+.navigation_footer{
+    display: flex;
+    margin-top: -20px;
+    justify-content: center;
+}
+
+.mb {
+    margin-bottom: 59px;
+}
+
