@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner .box {
+    position: relative;
+    height: 100vh;
+    background: #fff;
+}
+
+.banner .box:last-child {
+    background: #ff0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    font-size: 1.4rem;
+    color: #111;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #bdbdbd;
+    letter-spacing: 1px;
+}
+
+header ul li a:hover {
+    color: #333;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.content h2 {
+    font-size: 4rem;
+    color: #333;
+}
+
+.content h2 p {
+    font-size: 1.1rem;
+    color: #777;
+    line-height: 1.8rem;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid #333;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.sci {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    right: 60px;
+}
+
+.sci h3 {
+    font-weight: 500;
+    color: #bdbdbd;
+    letter-spacing: 1px;
+}
+
+.sci li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.sci li img {
+    max-width: 30px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images .imgBx {
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    background: #0f0;
+}
+
+.images .imgBx:nth-child(2) {
+    background-color: #00f;
+}
+
+.images .imgBx:nth-child(3) {
+    width: 100%;
+    background-color: #ff0;
+}
+
+.images .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* mediaquaries */
+
+@media screen and (max-width: 991px) {
+    .banner {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        padding: 20px 40px;
+    }
+
+    .content {
+        padding: 40px;
+    }
+
+    .banner .box.content {
+        height: 70vh;
+    }
+
+    .banner .box.images {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content h2 {
+        font-size: 3rem;
+    }
+
+    .images .imgBx {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background: #0f0;
+    }
+}
+
+@media screen and (max-width: 356px) {
+    header {
+        padding: 20px 20px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        padding: 20px 10px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
