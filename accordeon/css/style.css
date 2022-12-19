@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.wrapper{
+	max-width: 600px;
+	padding: 0 20px;
+}
+
+.wrapper .parent_tab,
+.wrapper .child_tab{
+	margin-bottom: 8px;
+	border-radius: 3px;
+	box-shadow: 0 0 15px rgba(0,0,0, 0.18);
+}
+
+.wrapper .parent_tab label,
+.wrapper .child_tab label{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	border-radius: 3px;
+	padding: 10px 20px;
+	background: #007bff;
+	z-index: 99;
+}
+
+.wrapper label span{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	text-shadow: 0 -1px 1px #0056b3
+}
+
+.child_tab label span{
+	font-size: 17px;
+}
+
+.wrapper label .icon{
+	position: relative;
+	height: 30px;
+	width: 30px;
+	color: #007bff;
+	font-size: 15px;
+	display: block;
+	background: #fff;
+	border-radius: 50%;
+	text-shadow: 0 -1px 1px #0056b3
+}
+
+.parent_tab input:checked ~ label .icon i:before,
+.child_tab input:checked ~ label .icon i:before{
+	content:'\f068'
+}
+
+.wrapper label .icon i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.wrapper .parent_tab .content,
+.wrapper .child_tab .sub_content{
+	max-height: 0px;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+.parent_tab input:checked ~ .content,
+.child_tab input:checked ~ .sub_content{
+	max-height: 100vh;
+}
+
+.tab-3 input:checked ~ .content{
+	padding: 15px 20px;
+}
+.wrapper .parent_tab .content p,
+.wrapper .child_tab .content p{
+	font-size: 16px;
+	padding: 15px 20px;
+}
+
+.wrapper input{
+	display: none;
+}
