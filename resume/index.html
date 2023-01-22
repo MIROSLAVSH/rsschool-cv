@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<title>My resume</title>
+</head>
+<body>
+	<header class="header" id="header">
+		<nav class="nav container">
+			<a href="#" class="nav__logo">
+				Miraslau
+			</a>
+
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#about" class="nav__link active-link">About me</a>
+					</li>
+					<li class="nav__item">
+						<a href="#education" class="nav__link">Education</a>
+					</li>
+					<li class="nav__item">
+						<a href="#skills" class="nav__link">Skills</a>
+					</li>
+					<li class="nav__item">
+						<a href="#portfolio" class="nav__link">Portfolio</a>
+					</li>
+					<li class="nav__item">
+						<a href="#contact" class="nav__link">Contact info</a>
+					</li>
+				</ul>
+
+				
+
+			</div>
+
+			<div class="nav__buttons">
+				<!-- theme change button-->
+				<i class="ri-moon-line change-theme" id="theme-button"></i>
+
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+			  </div>
+
+			</div>
+		</nav>
+	</header>
+
+	<main class="main">
+		<!-- about section -->
+		<section class="about section" id="about">
+			<div class="about__container container grid">
+				<img src="./img/My_photo.jpg" alt="sushi-rolls" class="about__img">
+				<div class="about__data">
+					<div class="about__name_title">
+						Miraslau Sharkouski
+					</div>
+					<span class="section__subtitle about_me">
+						About me
+					</span>
+
+					<p class="about__description">
+						I'm 23. Looking for an opportunity to put my skills Junior Frontend Developer
+into practice
+					</p>
+
+					<a href="./Miraslau_Sharkouski2.pdf" target="_blank" class="button">
+						My resume <i class="ri-arrow-right-line"></i>
+					</a>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- education  section-->
+		<section class="education section" id="education">
+			<span class="section__subtitle">
+				Education
+			</span>
+
+			<div class="education__container container grid">
+				<article class="education__card ">
+					<img src="./img/Minsk_State_Polytechnic_College.jpg" alt="Minsk_State_Polytechnic_College" class="education__img">
+
+					<h3 class="education__name">Minsk State Polytechnic College</h3>
+					<span class="education__speciality">Microelectronics</span>
+
+					<span class="education__profession">technician technologist</span>
+					<span class="education__year">2016-2020</span>
+					<a href="https://bntu.by/en/colleges/mgpk" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="education__card">
+					<img src="./img/Belarusian_National_Technical_University.jpg" alt="Belarusian_National_Technical_University" class="education__img">
+
+					<h3 class="education__name">Belarusian National Technical University</h3>
+					<span class="education__speciality">Faculty of Instrumentation</span>
+
+					<span class="education__profession">electrician engineer</span>
+					<span class="education__year">2020-in progress</span>
+					<a href="https://en.bntu.by/"  target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+			</div>
+		</section>
+
+
+		<!-- skills section -->
+		<section class="skills section" id="skills">
+			<span class="section__subtitle">
+				Skills
+			</span>
+			<div class="skills__container container grid">
+				<div class="skills__cards__container">
+					<div class="card-wrapper"> 
+					
+				<article class="skills__card product" draggable="false" >
+					
+					<img src="./img/svg/github.svg" alt="Github" class="skills__img">
+					<h3 class="skills__name">Github</h3>
+					<a href="https://github.com/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product" draggable="false">
+					
+					<img src="./img/svg/html5.svg" alt="HTML5" class="skills__img">
+					<h3 class="skills__name">HTML5</h3>
+					<a href="https://www.tutorialspoint.com/html5/index.htm" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product" draggable="false">
+					
+					<img src="./img/svg/css3.svg" alt="CSS3" class="skills__img">
+					<h3 class="skills__name">CSS3</h3>
+					<a href="https://web.dev/learn/css/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product" draggable="false">
+					
+					<img src="./img/svg/bootstrap.svg" alt="Bootstrap5" class="skills__img">
+					<h3 class="skills__name">Bootstrap5</h3>
+					<a href="https://getbootstrap.com/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product" draggable="false">
+					
+					<img src="./img/svg/square-js.svg" alt="JavaScript" class="skills__img">
+					<h3 class="skills__name">JavaScript</h3>
+					<a href="https://learn.javascript.ru/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product" draggable="false">
+					
+					<img src="./img/svg/node-js.svg" alt="NodeJS" class="skills__img">
+					<h3 class="skills__name">NodeJS</h3>
+					<a href="https://nodejs.org/en/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product" draggable="false">
+					
+					<img src="./img/svg/angular.svg" alt="Angular" class="skills__img">
+					<h3 class="skills__name">Angular</h3>
+					<a href="https://angular.io/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+			</div>
+			</div>
+			</div>
+		</section>
+
+
+		<!-- portfolio section-->
+
+		<section class="portfolio section" id="portfolio">
+			<span class="section__subtitle">
+				Portfolio
+			</span>
+			<div class="portfolio__items">
+				<span class="item active" data-name="all">All</span>
+				<span class="item" data-name="js_projects">JS Projects</span>
+				<span class="item" data-name="landing_pages">Landing pages</span>
+				<span class="item" data-name="web_pages">Web Pages</span>
+		  </div>
+			<div class="skills__container container grid">
+				
+				<article class="skills__card product image" data-name="js_projects">
+					
+					<img src="./img/js_project/1js.png" alt="Animated Product Card" class="portfolio__img">
+					<h3 class="skills__name">
+						Animated Product Card</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/animated_product_card/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="js_projects">
+					
+					<img src="./img/js_project/2js.png" alt="Image Comparison Slider" class="portfolio__img">
+					<h3 class="skills__name">Image Comparison Slider</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/image_comparison_slider/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="js_projects">
+					
+					<img src="./img/js_project/3js.png" alt="Increment And Decrement Number" class="portfolio__img">
+					<h3 class="skills__name">Increment And Decrement Number</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/increment_and_decrement_number/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="js_projects">
+					
+					<img src="./img/js_project/4js.png" alt="Calculator" class="portfolio__img">
+					<h3 class="skills__name">Calculator</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/calculator/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="js_projects">
+					
+					<img src="./img/js_project/5js.png" alt="Circular Progress Bar" class="portfolio__img">
+					<h3 class="skills__name">Circular Progress Bar</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/circular_progress_bar/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="js_projects">
+					
+					<img src="./img/js_project/6js.png" alt="Filterable Image Gallery" class="portfolio__img">
+					<h3 class="skills__name">Filterable Image Gallery</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/filterable_image_gallery/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="js_projects">
+					
+					<img src="./img/js_project/7js.png" alt="Analog And Digital Clock" class="portfolio__img">
+					<h3 class="skills__name">Analog And Digital Clock</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/analog_and_digital_clock/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="js_projects">
+					
+					<img src="./img/js_project/8js.png" alt="Image Slider" class="portfolio__img">
+					<h3 class="skills__name">Image Slider</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/image_slider/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="landing_pages">
+					
+					<img src="./img/landing_pages/3.1L_web.png" alt="Fruits" class="portfolio__img">
+					<h3 class="skills__name">Fruits</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/Landing_pades/Fruits/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="landing_pages">
+					
+					<img src="./img/landing_pages/3.2L_web.png" alt="Creative" class="portfolio__img">
+					<h3 class="skills__name">Creative</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/Landing_pades/Hmmm/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="landing_pages">
+					
+					<img src="./img/landing_pages/3.3L_web.png" alt="Juiceables" class="portfolio__img">
+					<h3 class="skills__name">Juiceables</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/Landing_pades/Juiceables/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="web_pages">
+					
+					<img src="./img/web_pages/1web.png" alt="Coffee" class="portfolio__img">
+					<h3 class="skills__name">Coffee</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/Coffee/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="web_pages">
+					
+					<img src="./img/web_pages/2web.png" alt="Food" class="portfolio__img">
+					<h3 class="skills__name">Food</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/Food/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="web_pages">
+					
+					<img src="./img/web_pages/4web.png" alt="Online Education" class="portfolio__img">
+					<h3 class="skills__name">Online Education</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/Online_education/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="web_pages">
+					
+					<img src="./img/web_pages/5web.png" alt="Roby" class="portfolio__img">
+					<h3 class="skills__name">Roby</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/Roby/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="web_pages">
+					
+					<img src="./img/web_pages/6web.png" alt="Sushi" class="portfolio__img">
+					<h3 class="skills__name">Sushi</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/Sushi/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="web_pages">
+					
+					<img src="./img/web_pages/7web.png" alt="Tasty" class="portfolio__img">
+					<h3 class="skills__name">Tasty</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/Tasty/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				<article class="skills__card product image" data-name="web_pages">
+					
+					<img src="./img/web_pages/8web.png" alt="My Blog" class="portfolio__img">
+					<h3 class="skills__name">My Blog</h3>
+					<a href="https://miroslavsh.github.io/rsschool-cv/my_blog/" target="_blank" class="education__button button">
+						<i class="ri-arrow-right-line"></i>
+					</a>
+				</article>
+
+				
+			</div>
+		</section>
+
+		<!-- contact info footer -->
+		<footer class="footer" id="contact">
+			<div class="footer__container container grid">
+				<div>
+					<span class="section__subtitle">
+						Contact Info
+					</span>
+						<ul class="footer__social">
+							<a href="mailto:miraslausharkouski@gmail.com" target="_blank" class="footer__social-link">
+								<img src="./img/svg/envelope-regular.svg" alt="envelope-regular" class="social__link_img">
+							</a>
+							<a href="https://telegram.me/MiraSShark" target="_blank" class="footer__social-link">
+								<img src="./img/svg/telegram.svg" alt="telegram" class="social__link_img">
+							</a>
+							<a href="https://www.linkedin.com/in/miraslau-sharkouski/" target="_blank" class="footer__social-link">
+								<img src="./img/svg/linkedin.svg" alt="linkedin" class="social__link_img">
+							</a>
+						</ul>
+				</div>
+			</div>
+	
+			
+		</footer>
+
+
+		<a href="#" class="scrollup" id="scroll-up">
+			<i class="ri-arrow-up-line"></i>
+		</a>
+
+
+	<script src="./js/script.js"></script>
+</body>
+</html>
