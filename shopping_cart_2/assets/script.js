@@ -53,7 +53,7 @@ function updateCartInfo(){
 
 // load product items content form JSON file
 function loadJSONFurniture(){
-    fetch('./assets/furniture.json').then(response => response.json()).then(data =>{
+    fetch('../assets/furniture.json').then(response => response.json()).then(data =>{
         let html = '';
         data.forEach(product =>{
             // console.log(product);
