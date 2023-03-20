@@ -52,34 +52,34 @@ function updateCartInfo(){
 
 
 // load product items content form JSON file
-function loadJSONFurniture(){
-    fetch('../assets/furniture.json').then(response => response.json()).then(data =>{
-        let html = '';
-        data.forEach(product =>{
-            // console.log(product);
-            html +=`
-					<div class="product-item">
-                <div class="product-img">
-                    <img src="${product.imgSrc}" alt="product">
-                        <button type="button" class="add-to-cart-btn">
-								<i class="fa-solid fa-cart-shopping"></i>Add to cart
-                        </button>
-                </div>
+// function loadJSONFurniture(){
+//     fetch('../assets/furniture.json').then(response => response.json()).then(data =>{
+//         let html = '';
+//         data.forEach(product =>{
+//             // console.log(product);
+//             html +=`
+// 					<div class="product-item">
+//                 <div class="product-img">
+//                     <img src="${product.imgSrc}" alt="product">
+//                         <button type="button" class="add-to-cart-btn">
+// 								<i class="fa-solid fa-cart-shopping"></i>Add to cart
+//                         </button>
+//                 </div>
 
-                <div class="product-content">
-                    <h3 class="product-name">${product.name}</h3>
-                    <span class="product-category">${product.category}</span>
-                    <p class="product-price">$${product.price}</p>
-                </div>
-            </div>
-				`;
-        });
-        productList.innerHTML = html;
-    })
-	 .catch(error => {
-		alert(`User live server or local server`)
-	 })
-}
+//                 <div class="product-content">
+//                     <h3 class="product-name">${product.name}</h3>
+//                     <span class="product-category">${product.category}</span>
+//                     <p class="product-price">$${product.price}</p>
+//                 </div>
+//             </div>
+// 				`;
+//         });
+//         productList.innerHTML = html;
+//     })
+// 	 .catch(error => {
+// 		alert(`User live server or local server`)
+// 	 })
+// }
 
 
 // purchase product from the product list
