@@ -957,8 +957,16 @@ body.dark-theme {
 	}
 }
 
+@media screen and (max-width: 1023px){
+	.about_me {
+	    justify-content: center;
+	}
+}
+
 @media screen and (max-width: 575px){
 	.skills__cards__container{
 		width: 300px;
 	}
 }
+
+
