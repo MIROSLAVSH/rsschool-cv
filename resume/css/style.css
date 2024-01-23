@@ -904,7 +904,7 @@ body.dark-theme {
 
  .about__container {
   position: relative;
-  grid-template-columns: 480px 500px;
+  grid-template-columns: 1fr 1fr;
   padding-block: 7rem 3rem;
  }
 
