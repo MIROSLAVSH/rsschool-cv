@@ -647,7 +647,7 @@ body.dark-theme {
 
 .portfolio__container {
 	padding-top: 4rem;
-	grid-template-columns: 250px;
+	grid-template-columns: repeat(3, 1fr);
 	justify-content: center;
 	row-gap: 5.5rem;
 }
@@ -963,7 +963,16 @@ body.dark-theme {
 	}
 }
 
+@media screen and (max-width: 869px){
+	.portfolio__container{
+		grid-template-column: repeat(2, 1fr)
+	}
+}
+
 @media screen and (max-width: 575px){
+	.portfolio__container{
+		grid-template-column: repeat(1, 1fr)
+	}
 	.skills__cards__container{
 /* 		width: 300px; */
 	}
