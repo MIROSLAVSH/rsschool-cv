@@ -528,7 +528,7 @@ body.dark-theme {
 
    .skills__cards__container {
 	position: relative;
-	width: 900px;
+/* 	width: 900px; */
 	height: 250px;
 	overflow: hidden;
 	cursor: grab;
@@ -831,7 +831,7 @@ body.dark-theme {
  }
 
  .skills__cards__container {
-	width: 300px;
+/* 	width: 300px; */
 	
   }
 
@@ -870,12 +870,12 @@ body.dark-theme {
 		grid-template-columns: repeat(2, 250px);
 	}
 
-	.skills__container{
+/* 	.skills__container{
 		grid-template-columns: repeat(2, 250px);
-	}
+	} */
 
 	.skills__cards__container {
-		width: 600px;
+/* 		width: 600px; */
 		
 	  }
 
@@ -940,12 +940,12 @@ body.dark-theme {
 }
 
  .skills__container {
-	grid-template-columns: repeat(3, 262px);
+/* 	grid-template-columns: repeat(3, 262px); */
 	column-gap: 3.5rem
 }
 
 .skills__cards__container {
-	width: 900px;
+/* 	width: 900px; */
 	
   }
 
