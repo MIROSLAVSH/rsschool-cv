@@ -493,7 +493,7 @@ body.dark-theme {
 
 .skills__container {
 	padding-top: 4rem;
-	grid-template-columns: 250px;
+/* 	grid-template-columns: 250px; */
 	justify-content: center;
 	row-gap: 5.5rem;
   }
