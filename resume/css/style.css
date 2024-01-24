@@ -965,7 +965,7 @@ body.dark-theme {
 
 @media screen and (max-width: 575px){
 	.skills__cards__container{
-		width: 300px;
+/* 		width: 300px; */
 	}
 }
 
