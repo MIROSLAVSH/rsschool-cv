@@ -965,13 +965,13 @@ body.dark-theme {
 
 @media screen and (max-width: 869px){
 	.portfolio__container{
-		grid-template-column: repeat(2, 1fr)
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
 @media screen and (max-width: 575px){
 	.portfolio__container{
-		grid-template-column: repeat(1, 1fr)
+		grid-template-columns: repeat(1, 1fr);
 	}
 	.skills__cards__container{
 /* 		width: 300px; */
